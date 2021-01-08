@@ -13,7 +13,23 @@
 
     <script type="text/javascript">
     
+    var arr = []
+
+    let max = -1000000000
+
+    for(let i = 0; i < 6; i++){
+        arr[i] = prompt(`Введите ${i + 1} число`);
+    }
+
+    for(let i = 0; i < 6; i++) {
+        if (arr[i] > max)
+        max = arr[i];
+    }
+
+    console.log(max);
+
     
+
     </script>
     
 </body>
