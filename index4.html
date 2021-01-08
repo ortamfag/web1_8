@@ -12,6 +12,27 @@
     <a href = "index.html">На главную</a>
 
     <script type="text/javascript">
+
+    const a = prompt("Введите первое число: ");
+    const b = prompt("Введите второе число: ");
+    const c = prompt("Введите третье число: ");
+
+    if (a > b)
+        if (b > c)
+            console.log(`${c} ${b} ${a}`)
+
+        else if (a > c)
+            console.log(`${b} ${c} ${a}`)
+
+        else
+            console.log(`${b} ${a} ${c}`)
+
+    else if (a < c)
+        console.log(`${a} ${c} ${b}`)
+        
+    else
+        console.log(`${c} ${a} ${b}`)
+
     
     
     </script>
